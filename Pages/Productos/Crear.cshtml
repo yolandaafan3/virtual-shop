@@ -1,0 +1,247 @@
+@page
+@model TiendaVirtual.Pages.Productos.CrearModel
+@{
+    ViewData["Title"] = "Nuevo Producto";
+}
+
+<div class="page-header">
+    <div class="container">
+        <div class="page-header__inner">
+            <div>
+                <h1 class="page-title">Nuevo Producto</h1>
+                <p class="page-subtitle">Completa la información según la categoría</p>
+            </div>
+            <a asp-page="/Productos/Index" class="btn btn--outline">← Volver</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="form-card">
+
+        <!-- Selector de tipo -->
+        <div class="type-selector" id="typeSelector">
+            <h3 class="form-section-title">Selecciona la categoría</h3>
+            <div class="type-options">
+                <label class="type-option" data-type="tech">
+                    <input type="radio" name="tipoRadio" value="tech" checked />
+                    <div class="type-option__inner">
+                        <span class="type-option__icon">💻</span>
+                        <span class="type-option__label">Tecnología</span>
+                    </div>
+                </label>
+                <label class="type-option" data-type="ropa">
+                    <input type="radio" name="tipoRadio" value="ropa" />
+                    <div class="type-option__inner">
+                        <span class="type-option__icon">👕</span>
+                        <span class="type-option__label">Ropa</span>
+                    </div>
+                </label>
+                <label class="type-option" data-type="alimento">
+                    <input type="radio" name="tipoRadio" value="alimento" />
+                    <div class="type-option__inner">
+                        <span class="type-option__icon">🛒</span>
+                        <span class="type-option__label">Alimento</span>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <hr class="divider" />
+
+        <!-- Formulario Tecnología -->
+        <form id="formTech" method="post" asp-page-handler="CrearTecnologico" class="product-form">
+            <h3 class="form-section-title">💻 Producto Tecnológico</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label asp-for="Tech.Codigo">Código *</label>
+                    <input asp-for="Tech.Codigo" class="form-control" placeholder="TECH001" />
+                    <span asp-validation-for="Tech.Codigo" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tech.Nombre">Nombre *</label>
+                    <input asp-for="Tech.Nombre" class="form-control" placeholder="Laptop Pro..." />
+                    <span asp-validation-for="Tech.Nombre" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tech.Precio">Precio ($) *</label>
+                    <input asp-for="Tech.Precio" type="number" step="0.01" class="form-control" placeholder="0.00" />
+                    <span asp-validation-for="Tech.Precio" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tech.Stock">Stock *</label>
+                    <input asp-for="Tech.Stock" type="number" class="form-control" placeholder="0" />
+                    <span asp-validation-for="Tech.Stock" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tech.Marca">Marca *</label>
+                    <input asp-for="Tech.Marca" class="form-control" placeholder="Samsung, Apple..." />
+                    <span asp-validation-for="Tech.Marca" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tech.Modelo">Modelo *</label>
+                    <input asp-for="Tech.Modelo" class="form-control" placeholder="Galaxy S24..." />
+                    <span asp-validation-for="Tech.Modelo" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tech.GarantiaAnios">Garantía (años) *</label>
+                    <input asp-for="Tech.GarantiaAnios" type="number" min="1" max="10" class="form-control" />
+                    <span asp-validation-for="Tech.GarantiaAnios" class="form-error"></span>
+                </div>
+                <div class="form-group form-group--full">
+                    <label asp-for="Tech.Especificaciones">Especificaciones</label>
+                    <input asp-for="Tech.Especificaciones" class="form-control" placeholder="RAM, procesador, almacenamiento..." />
+                </div>
+                <div class="form-group form-group--full">
+                    <label asp-for="Tech.Descripcion">Descripción</label>
+                    <textarea asp-for="Tech.Descripcion" class="form-control form-textarea" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="form-actions">
+                <a asp-page="/Productos/Index" class="btn btn--outline">Cancelar</a>
+                <button type="submit" class="btn btn--primary">Guardar Producto 💻</button>
+            </div>
+        </form>
+
+        <!-- Formulario Ropa -->
+        <form id="formRopa" method="post" asp-page-handler="CrearRopa" class="product-form" style="display:none">
+            <h3 class="form-section-title">👕 Producto de Ropa</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label asp-for="Ropa.Codigo">Código *</label>
+                    <input asp-for="Ropa.Codigo" class="form-control" placeholder="ROPA001" />
+                    <span asp-validation-for="Ropa.Codigo" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ropa.Nombre">Nombre *</label>
+                    <input asp-for="Ropa.Nombre" class="form-control" placeholder="Camiseta casual..." />
+                    <span asp-validation-for="Ropa.Nombre" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ropa.Precio">Precio ($) *</label>
+                    <input asp-for="Ropa.Precio" type="number" step="0.01" class="form-control" />
+                    <span asp-validation-for="Ropa.Precio" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ropa.Stock">Stock *</label>
+                    <input asp-for="Ropa.Stock" type="number" class="form-control" />
+                    <span asp-validation-for="Ropa.Stock" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ropa.Talla">Talla *</label>
+                    <select asp-for="Ropa.Talla" class="form-control">
+                        <option value="">Seleccionar...</option>
+                        <option>XS</option><option>S</option><option>M</option>
+                        <option>L</option><option>XL</option><option>XXL</option>
+                        <option>28</option><option>30</option><option>32</option><option>34</option>
+                    </select>
+                    <span asp-validation-for="Ropa.Talla" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ropa.Color">Color *</label>
+                    <input asp-for="Ropa.Color" class="form-control" placeholder="Negro, Rojo..." />
+                    <span asp-validation-for="Ropa.Color" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ropa.Material">Material</label>
+                    <input asp-for="Ropa.Material" class="form-control" placeholder="Algodón 100%..." />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ropa.Genero">Género</label>
+                    <select asp-for="Ropa.Genero" class="form-control">
+                        <option>Unisex</option>
+                        <option>Hombre</option>
+                        <option>Mujer</option>
+                        <option>Niño</option>
+                        <option>Niña</option>
+                    </select>
+                </div>
+                <div class="form-group form-group--full">
+                    <label asp-for="Ropa.Descripcion">Descripción</label>
+                    <textarea asp-for="Ropa.Descripcion" class="form-control form-textarea" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="form-actions">
+                <a asp-page="/Productos/Index" class="btn btn--outline">Cancelar</a>
+                <button type="submit" class="btn btn--primary">Guardar Producto 👕</button>
+            </div>
+        </form>
+
+        <!-- Formulario Alimento -->
+        <form id="formAlimento" method="post" asp-page-handler="CrearAlimento" class="product-form" style="display:none">
+            <h3 class="form-section-title">🛒 Producto Alimenticio</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label asp-for="Alimento.Codigo">Código *</label>
+                    <input asp-for="Alimento.Codigo" class="form-control" placeholder="ALIM001" />
+                    <span asp-validation-for="Alimento.Codigo" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Alimento.Nombre">Nombre *</label>
+                    <input asp-for="Alimento.Nombre" class="form-control" placeholder="Aceite de oliva..." />
+                    <span asp-validation-for="Alimento.Nombre" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Alimento.Precio">Precio ($) *</label>
+                    <input asp-for="Alimento.Precio" type="number" step="0.01" class="form-control" />
+                    <span asp-validation-for="Alimento.Precio" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Alimento.Stock">Stock *</label>
+                    <input asp-for="Alimento.Stock" type="number" class="form-control" />
+                    <span asp-validation-for="Alimento.Stock" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Alimento.FechaVencimiento">Fecha de Vencimiento *</label>
+                    <input asp-for="Alimento.FechaVencimiento" type="date" class="form-control" />
+                    <span asp-validation-for="Alimento.FechaVencimiento" class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Alimento.PesoVolumen">Peso / Volumen *</label>
+                    <input asp-for="Alimento.PesoVolumen" class="form-control" placeholder="500ml, 1kg..." />
+                    <span asp-validation-for="Alimento.PesoVolumen" class="form-error"></span>
+                </div>
+                <div class="form-group form-group--full">
+                    <label asp-for="Alimento.Ingredientes">Ingredientes</label>
+                    <input asp-for="Alimento.Ingredientes" class="form-control" placeholder="Harina, agua, sal..." />
+                </div>
+                <div class="form-group form-group--full checkbox-group">
+                    <label class="checkbox-label">
+                        <input asp-for="Alimento.EsOrganico" type="checkbox" />
+                        <span>Producto orgánico</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input asp-for="Alimento.RequiereRefrigeracion" type="checkbox" />
+                        <span>Requiere refrigeración</span>
+                    </label>
+                </div>
+                <div class="form-group form-group--full">
+                    <label asp-for="Alimento.Descripcion">Descripción</label>
+                    <textarea asp-for="Alimento.Descripcion" class="form-control form-textarea" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="form-actions">
+                <a asp-page="/Productos/Index" class="btn btn--outline">Cancelar</a>
+                <button type="submit" class="btn btn--primary">Guardar Producto 🛒</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    const radios = document.querySelectorAll('input[name="tipoRadio"]');
+    const forms = { tech: 'formTech', ropa: 'formRopa', alimento: 'formAlimento' };
+
+    radios.forEach(r => r.addEventListener('change', function () {
+        Object.values(forms).forEach(id => document.getElementById(id).style.display = 'none');
+        document.getElementById(forms[this.value]).style.display = 'block';
+        document.querySelectorAll('.type-option').forEach(o => o.classList.remove('type-option--active'));
+        this.closest('.type-option').classList.add('type-option--active');
+    }));
+
+    // Activar la primera opción al cargar
+    document.querySelector('.type-option[data-type="tech"]').classList.add('type-option--active');
+</script>
+}

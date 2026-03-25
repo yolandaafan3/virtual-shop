@@ -1,0 +1,127 @@
+@page "{id:int}"
+@model TiendaVirtual.Pages.Productos.DetalleModel
+@{
+    ViewData["Title"] = Model.Producto?.Nombre ?? "Detalle";
+}
+
+@if (Model.Producto == null)
+{
+    <div class="container">
+        <div class="empty-state">
+            <div class="empty-icon">🔍</div>
+            <h3>Producto no encontrado</h3>
+            <a asp-page="/Productos/Index" class="btn btn--primary">Volver al catálogo</a>
+        </div>
+    </div>
+}
+else
+{
+    var p = Model.Producto;
+    <div class="page-header">
+        <div class="container">
+            <div class="page-header__inner">
+                <div>
+                    <h1 class="page-title">@p.IconoTipo @p.Nombre</h1>
+                    <p class="page-subtitle">
+                        <span class="badge badge--@p.ColorTipo">@p.TipoProducto</span>
+                        &nbsp; Código: @p.Codigo
+                    </p>
+                </div>
+                <a asp-page="/Productos/Index" class="btn btn--outline">← Volver</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="detail-grid">
+            <div class="detail-card">
+                <div class="detail-hero">
+                    <span class="detail-emoji">@p.IconoTipo</span>
+                    <div class="detail-price">$@p.Precio.ToString("N2")</div>
+                    <div class="detail-stock @(p.HayStock() ? "stock--ok" : "stock--out")">
+                        @(p.HayStock() ? $"✅ En stock: {p.Stock} unidades" : "⚠ Sin stock disponible")
+                    </div>
+                </div>
+
+                @if (p.HayStock())
+                {
+                    <form method="post" asp-page-handler="AgregarCarrito" class="add-to-cart-form">
+                        <input type="hidden" name="productoId" value="@p.Id" />
+                        <div class="qty-selector">
+                            <label>Cantidad:</label>
+                            <input type="number" name="cantidad" value="1" min="1" max="@p.Stock" class="form-control qty-input" />
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--lg btn--full">🛒 Agregar al Carrito</button>
+                    </form>
+                }
+            </div>
+
+            <div class="detail-info">
+                <div class="detail-section">
+                    <h3>Descripción</h3>
+                    <p>@(string.IsNullOrEmpty(p.Descripcion) ? "Sin descripción disponible." : p.Descripcion)</p>
+                </div>
+
+                <div class="detail-section">
+                    <h3>Información Detallada</h3>
+                    <p class="detail-spec-text">@p.ObtenerDescripcionDetallada()</p>
+                </div>
+
+                <!-- Información específica por tipo (Polimorfismo en la vista) -->
+                @if (p is TiendaVirtual.Models.ProductoTecnologico tech)
+                {
+                    <div class="detail-section">
+                        <h3>Ficha Técnica</h3>
+                        <table class="detail-table">
+                            <tr><td>Marca</td><td>@tech.Marca</td></tr>
+                            <tr><td>Modelo</td><td>@tech.Modelo</td></tr>
+                            <tr><td>Garantía</td><td>@tech.GarantiaAnios año(s)</td></tr>
+                            <tr><td>Especificaciones</td><td>@tech.Especificaciones</td></tr>
+                        </table>
+                    </div>
+                }
+                else if (p is TiendaVirtual.Models.ProductoRopa ropa)
+                {
+                    <div class="detail-section">
+                        <h3>Características</h3>
+                        <table class="detail-table">
+                            <tr><td>Talla</td><td>@ropa.Talla</td></tr>
+                            <tr><td>Color</td><td>@ropa.Color</td></tr>
+                            <tr><td>Material</td><td>@ropa.Material</td></tr>
+                            <tr><td>Género</td><td>@ropa.Genero</td></tr>
+                        </table>
+                    </div>
+                }
+                else if (p is TiendaVirtual.Models.ProductoAlimento alim)
+                {
+                    <div class="detail-section">
+                        <h3>Información Nutricional</h3>
+                        <table class="detail-table">
+                            <tr><td>Vencimiento</td><td>@alim.FechaVencimiento.ToString("dd/MM/yyyy")</td></tr>
+                            <tr><td>Peso/Volumen</td><td>@alim.PesoVolumen</td></tr>
+                            <tr><td>Orgánico</td><td>@(alim.EsOrganico ? "✅ Sí" : "No")</td></tr>
+                            <tr><td>Refrigeración</td><td>@(alim.RequiereRefrigeracion ? "❄ Sí" : "No")</td></tr>
+                            @if (!string.IsNullOrEmpty(alim.Ingredientes))
+                            {
+                                <tr><td>Ingredientes</td><td>@alim.Ingredientes</td></tr>
+                            }
+                        </table>
+                        @if (alim.EstaVencido())
+                        {
+                            <div class="alert alert--danger">⚠ Este producto está vencido.</div>
+                        }
+                        else if (alim.EstaPorVencer())
+                        {
+                            <div class="alert alert--warning">⏰ Este producto está próximo a vencer.</div>
+                        }
+                    </div>
+                }
+
+                <div class="detail-section">
+                    <h3>Información del Sistema</h3>
+                    <p class="text-muted">@p.MostrarInfo()</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}

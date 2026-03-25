@@ -1,0 +1,194 @@
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/appsettings.Development.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/appsettings.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.staticwebassets.runtime.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.staticwebassets.endpoints.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.exe
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.deps.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.runtimeconfig.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.pdb
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/rpswa.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.AssemblyInfoInputs.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.AssemblyInfo.cs
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.csproj.CoreCompileInputs.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.RazorAssemblyInfo.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.RazorAssemblyInfo.cs
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/rjimswa.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/scopedcss/bundle/TiendaVirtual.styles.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/scopedcss/projectbundle/TiendaVirtual.bundle.scp.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/tk3lppq5qr-{0}-lhimxz5x9o-lhimxz5x9o.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/v99iswg13z-{0}-61n19gt1b8-61n19gt1b8.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/4n22sv8283-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/9sqyqlipql-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/5nh37njafk-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/sm87vquhhw-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/tc4h7jbcbn-{0}-aexeepp0ev-aexeepp0ev.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/di5reuyixh-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/22ud7ih03g-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/cfs6o3bxh3-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/9mpvj8zmxu-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/ntaznzhyxz-{0}-ub07r2b239-ub07r2b239.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/1862mbzwlh-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/lcyto7ax1w-{0}-b7pk76d08c-b7pk76d08c.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/e55row2fsu-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/avfsf7xgym-{0}-rzd6atqjts-rzd6atqjts.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/t8ooxo9gfw-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/v8uhcen9s1-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/plpijbvqor-{0}-jd9uben2k1-jd9uben2k1.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/1sntmmyggc-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/gh7s145d9b-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/xr1pviapjt-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/y8m24i4tfg-{0}-c2oey78nd0-c2oey78nd0.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/7s4m1xrw6k-{0}-tdbxkamptv-tdbxkamptv.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/wkfyppl4lr-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/p7eh9sdzot-{0}-06098lyss8-06098lyss8.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/d2i7ln04d6-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/mjzbcmrmtf-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/kyrhnpsr99-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/xark0l1ely-{0}-46ein0sx1k-46ein0sx1k.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/t7dg4emp8f-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/zdyyx8o3xj-{0}-37tfw0ft22-37tfw0ft22.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/qi1bd1d5nw-{0}-hrwsygsryq-hrwsygsryq.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/s2le9d75ta-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/hcktbcjh2q-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/4n3klix11o-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/h56fmu0jpj-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/8s0u5ltwwy-{0}-493y06b0oq-493y06b0oq.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/x13yf71f2v-{0}-iovd86k7lj-iovd86k7lj.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/q7lva8j46y-{0}-vr1egmr9el-vr1egmr9el.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/y29ez6bm7w-{0}-kbrnm935zg-kbrnm935zg.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/8fhs5grnxj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/z669kiud6d-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/0cx51ak36d-{0}-notf2xhcfb-notf2xhcfb.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/aszzqbbhsz-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/g8qn2qzg8d-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/b23d4xva3o-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/bqpylg7ksw-{0}-47otxtyo56-47otxtyo56.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/k57g6osfbk-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/sll0d58jko-{0}-356vix0kms-356vix0kms.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/0evllln4bs-{0}-83jwlth58m-83jwlth58m.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/5valnmvucq-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/qbzendurlo-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/e03m1i3kgy-{0}-ag7o75518u-ag7o75518u.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/r0qkyvaklr-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/305s501ttm-{0}-0i3buxo5is-0i3buxo5is.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/zyeck3m20v-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/14b7i7mip8-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/eb8wrotblr-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/lxabiso3pt-{0}-muycvpuwrr-muycvpuwrr.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/nlxtkzg2ik-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/4bqye3idlj-{0}-mlv21k5csn-mlv21k5csn.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/tm8uwfbqsy-{0}-fs49pszx6k-fs49pszx6k.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/compressed/57883o3207-{0}-fs49pszx6k-fs49pszx6k.gz
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/staticwebassets.build.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/staticwebassets.build.json.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/staticwebassets.development.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/swae.build.ex.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/refint/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.pdb
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.genruntimeconfig.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net9.0/ref/TiendaVirtual.dll
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/appsettings.Development.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/appsettings.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.staticwebassets.runtime.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.staticwebassets.endpoints.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.deps.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.runtimeconfig.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.dll
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net9.0/TiendaVirtual.pdb
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.GeneratedMSBuildEditorConfig.editorconfig
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.AssemblyInfoInputs.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.AssemblyInfo.cs
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.csproj.CoreCompileInputs.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.MvcApplicationPartsAssemblyInfo.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.RazorAssemblyInfo.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.RazorAssemblyInfo.cs
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/scopedcss/bundle/TiendaVirtual.styles.css
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/scopedcss/projectbundle/TiendaVirtual.bundle.scp.css
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/lxxzfw295k-lhimxz5x9o.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/njx5ojmo3w-61n19gt1b8.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/n3rnarvu1n-xtxxf3hu2r.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/bmp94re9ib-bqjiyaj88i.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/zmq9na1ry8-c2jlpeoesf.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/m2mwvt5qnw-erw9l3u2r3.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/si15pr3f8p-aexeepp0ev.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/o3x70tiopq-d7shbmvgxk.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/hog85pkjsn-ausgxo2sd3.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/xhaicubal3-k8d9w2qqmf.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/rcjo5djtkp-cosvhxvwiu.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/m5f0ruczh3-ub07r2b239.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/42kdxmin4o-fvhpjtyr6v.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/d4bfs6o4bo-b7pk76d08c.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/gmhd6lw57r-fsbi9cje9m.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/nbrhix9rdq-rzd6atqjts.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/46au1qjcy6-ee0r1s7dh0.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/qbyqzq3wy7-dxx9fxp4il.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/sws03hk5ec-jd9uben2k1.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/lhuobok7ia-khv3u5hwcm.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/gl5o7pluwx-r4e9w2rdcm.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/cyg5nlw3ww-lcd1t2u6c8.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/ix2y8wrqbv-c2oey78nd0.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/zg8jmys7eg-tdbxkamptv.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/lwc1ojufzf-j5mq2jizvt.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/j92x0k17tj-06098lyss8.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/owiayepzm1-nvvlpmu67g.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/wtverj4150-s35ty4nyc5.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/8aza6m1et1-pj5nd1wqec.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/081nyclysg-46ein0sx1k.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/ut47iprw9y-v0zj4ognzu.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/8tk5qf640r-37tfw0ft22.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/n3y32ozzww-hrwsygsryq.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/0qji9nf218-pk9g2wxc8p.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/4yogk0ez09-ft3s53vfgj.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/kcbckpu0qp-6cfz1n2cew.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/pzzpcup46o-6pdc2jztkx.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/l6qtla448q-493y06b0oq.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/uy0u79n2au-iovd86k7lj.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/m5osapkwhw-vr1egmr9el.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/u4pb0c8a0e-kbrnm935zg.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/olsa4iwmtc-jj8uyg4cgr.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/dx26u3cxdo-y7v9cxd14o.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/yhapzb8j0b-notf2xhcfb.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/ufl25itc1i-h1s4sie4z3.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/5aft3sgf66-63fj8s7r0e.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/k7yut7ppkn-0j3bgjxly4.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/3ek7971x2a-47otxtyo56.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/rp4eyawm16-4v8eqarkd7.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/le1590vd4i-356vix0kms.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/mlznt2debs-83jwlth58m.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/28a0jiytzm-mrlpezrjn3.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/crrclg9rk0-lzl9nlhx6b.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/d7x8zloxb4-ag7o75518u.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/d0sba36k6y-x0q3zqp4vz.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/1cp8hcs1kd-0i3buxo5is.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/qi9pnr6r3a-o1o13a6vjx.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/evhf43gbdt-ttgo8qnofa.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/tzykmpykzn-2z0ns9nrw6.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/pxfwry8ugg-muycvpuwrr.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/n3oduvmrg3-87fc7y1x7t.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/dkmwiysmxb-mlv21k5csn.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/vex3sn7hv9-mvexe77bo8.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/compressed/y9ty01z1af-mvexe77bo8.gz
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets.build.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets.development.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets/msbuild.TiendaVirtual.Microsoft.AspNetCore.StaticWebAssets.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets/msbuild.TiendaVirtual.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets/msbuild.build.TiendaVirtual.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.TiendaVirtual.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.TiendaVirtual.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/staticwebassets.pack.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.dll
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/refint/TiendaVirtual.dll
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.pdb
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/TiendaVirtual.genruntimeconfig.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net9.0/ref/TiendaVirtual.dll

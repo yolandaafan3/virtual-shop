@@ -1,0 +1,82 @@
+@page
+@model TiendaVirtual.Pages.Clientes.IndexModel
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<div class="page-header">
+    <div class="container">
+        <div class="page-header__inner">
+            <div>
+                <h1 class="page-title">Clientes</h1>
+                <p class="page-subtitle">@Model.Clientes.Count cliente(s) registrado(s)</p>
+            </div>
+            <a asp-page="/Clientes/Crear" class="btn btn--primary">+ Nuevo Cliente</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Buscador -->
+    <div class="filters-bar">
+        <form method="get" class="filters-form">
+            <div class="filter-group">
+                <label>Buscar cliente</label>
+                <input type="text" name="buscar" value="@Model.Buscar"
+                       placeholder="Nombre, email o código..." class="filter-input" />
+            </div>
+            <button type="submit" class="btn btn--primary">Buscar</button>
+            <a asp-page="/Clientes/Index" class="btn btn--outline">Limpiar</a>
+        </form>
+    </div>
+
+    @if (!Model.Clientes.Any())
+    {
+        <div class="empty-state">
+            <div class="empty-icon">👥</div>
+            <h3>No hay clientes</h3>
+            <a asp-page="/Clientes/Crear" class="btn btn--primary">Registrar el primero</a>
+        </div>
+    }
+    else
+    {
+        <div class="table-wrapper">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Teléfono</th>
+                        <th>Pedidos</th>
+                        <th>Registro</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var c in Model.Clientes)
+                    {
+                        <tr>
+                            <td><code class="code-badge">@c.Codigo</code></td>
+                            <td class="td-name">
+                                <span class="avatar">@c.Nombre[0]@c.Apellido[0]</span>
+                                @c.NombreCompleto
+                            </td>
+                            <td>@c.Email</td>
+                            <td>@c.Telefono</td>
+                            <td>
+                                <span class="badge badge--neutral">@c.TotalPedidos pedido(s)</span>
+                            </td>
+                            <td>@c.FechaRegistro.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                <span class="badge @(c.Activo ? "badge--success" : "badge--danger")">
+                                    @(c.Activo ? "Activo" : "Inactivo")
+                                </span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

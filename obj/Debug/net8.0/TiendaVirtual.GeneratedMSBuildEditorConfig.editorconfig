@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TiendaVirtual
+build_property.RootNamespace = TiendaVirtual
+build_property.ProjectDir = /home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Carrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2Fycml0by9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Clientes/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xpZW50ZXMvQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xpZW50ZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Pedidos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVkaWRvcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Productos/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdG9zL0NyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Productos/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdG9zL0RldGFsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Productos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdG9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ru4g3na78f

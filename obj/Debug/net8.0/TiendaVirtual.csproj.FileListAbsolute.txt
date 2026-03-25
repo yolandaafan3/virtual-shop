@@ -1,0 +1,99 @@
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/appsettings.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.staticwebassets.runtime.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.staticwebassets.endpoints.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.exe
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.deps.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.runtimeconfig.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.pdb
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/rpswa.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.AssemblyInfoInputs.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.AssemblyInfo.cs
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.csproj.CoreCompileInputs.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.RazorAssemblyInfo.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.RazorAssemblyInfo.cs
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/rjimswa.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/scopedcss/bundle/TiendaVirtual.styles.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/scopedcss/projectbundle/TiendaVirtual.bundle.scp.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/staticwebassets.build.json.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/swae.build.ex.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/refint/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.pdb
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.genruntimeconfig.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_Actividad Evaluada II/TiendaVirtual/obj/Debug/net8.0/ref/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/appsettings.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.staticwebassets.endpoints.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.staticwebassets.runtime.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.exe
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.deps.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.runtimeconfig.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.pdb
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/rpswa.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.AssemblyInfoInputs.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.AssemblyInfo.cs
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.csproj.CoreCompileInputs.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.RazorAssemblyInfo.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.RazorAssemblyInfo.cs
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/rjimswa.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/scopedcss/bundle/TiendaVirtual.styles.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/scopedcss/projectbundle/TiendaVirtual.bundle.scp.css
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets.build.json.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/swae.build.ex.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/refint/TiendaVirtual.dll
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.pdb
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.genruntimeconfig.cache
+C:/Users/melio/Desktop/Uni/Programacion Orientada a Objetos (POO)/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/ref/TiendaVirtual.dll
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/appsettings.Development.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/appsettings.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.staticwebassets.runtime.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.staticwebassets.endpoints.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.deps.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.runtimeconfig.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.dll
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/bin/Debug/net8.0/TiendaVirtual.pdb
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.GeneratedMSBuildEditorConfig.editorconfig
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.AssemblyInfoInputs.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.AssemblyInfo.cs
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.csproj.CoreCompileInputs.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.MvcApplicationPartsAssemblyInfo.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.RazorAssemblyInfo.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.RazorAssemblyInfo.cs
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/scopedcss/bundle/TiendaVirtual.styles.css
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/scopedcss/projectbundle/TiendaVirtual.bundle.scp.css
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets.build.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets.development.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets/msbuild.TiendaVirtual.Microsoft.AspNetCore.StaticWebAssets.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets/msbuild.TiendaVirtual.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets/msbuild.build.TiendaVirtual.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.TiendaVirtual.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.TiendaVirtual.props
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/staticwebassets.pack.json
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.dll
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/refint/TiendaVirtual.dll
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.pdb
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/TiendaVirtual.genruntimeconfig.cache
+/home/afane/POO/POO_NextStore2/POO_NextStore/TiendaVirtual/obj/Debug/net8.0/ref/TiendaVirtual.dll

@@ -1,0 +1,100 @@
+@page
+@model TiendaVirtual.Pages.Productos.IndexModel
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<div class="page-header">
+    <div class="container">
+        <div class="page-header__inner">
+            <div>
+                <h1 class="page-title">Productos</h1>
+                <p class="page-subtitle">Catálogo completo · @Model.Productos.Count producto(s)</p>
+            </div>
+            <a asp-page="/Productos/Crear" class="btn btn--primary">+ Nuevo Producto</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Filtros -->
+    <div class="filters-bar">
+        <form method="get" class="filters-form">
+            <div class="filter-group">
+                <label>Buscar</label>
+                <input type="text" name="buscar" value="@Model.Buscar"
+                       placeholder="Nombre o código..." class="filter-input" />
+            </div>
+            <div class="filter-group">
+                <label>Categoría</label>
+                <select name="tipo" class="filter-select">
+                    <option value="">Todas</option>
+                    <option value="Tecnología" selected="@(Model.TipoFiltro == "Tecnología")">💻 Tecnología</option>
+                    <option value="Ropa" selected="@(Model.TipoFiltro == "Ropa")">👕 Ropa</option>
+                    <option value="Alimento" selected="@(Model.TipoFiltro == "Alimento")">🛒 Alimento</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Stock</label>
+                <select name="soloConStock" class="filter-select">
+                    <option value="false" selected="@(!Model.SoloConStock)">Todos</option>
+                    <option value="true" selected="@(Model.SoloConStock)">Con stock</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn--primary">Filtrar</button>
+            <a asp-page="/Productos/Index" class="btn btn--outline">Limpiar</a>
+        </form>
+    </div>
+
+    @if (!Model.Productos.Any())
+    {
+        <div class="empty-state">
+            <div class="empty-icon">📦</div>
+            <h3>No hay productos</h3>
+            <p>No se encontraron productos con los filtros aplicados.</p>
+            <a asp-page="/Productos/Crear" class="btn btn--primary">Agregar el primero</a>
+        </div>
+    }
+    else
+    {
+        <div class="products-grid">
+            @foreach (var p in Model.Productos)
+            {
+                <div class="product-card @(p.HayStock() ? "" : "product-card--out")">
+                    <div class="product-card__header">
+                        <span class="product-emoji">@p.IconoTipo</span>
+                        <span class="badge badge--@p.ColorTipo">@p.TipoProducto</span>
+                        @if (!p.HayStock())
+                        {
+                            <span class="badge badge--danger">Sin stock</span>
+                        }
+                    </div>
+                    <p class="product-code">@p.Codigo</p>
+                    <h3 class="product-card__name">@p.Nombre</h3>
+                    <p class="product-card__desc">@p.ObtenerDescripcionDetallada()</p>
+                    <div class="product-card__footer">
+                        <span class="product-price">$@p.Precio.ToString("N2")</span>
+                        <span class="product-stock @(p.HayStock() ? "stock--ok" : "stock--out")">
+                            @(p.HayStock() ? $"📦 {p.Stock}" : "⚠ Agotado")
+                        </span>
+                    </div>
+                    <div class="product-card__actions">
+                        <a asp-page="/Productos/Detalle" asp-route-id="@p.Id" class="btn btn--sm btn--outline">Detalle</a>
+                        @if (p.HayStock())
+                        {
+                            <form method="post" asp-page-handler="AgregarCarrito" style="display:inline">
+                                <input type="hidden" name="productoId" value="@p.Id" />
+                                <button type="submit" class="btn btn--sm btn--primary">🛒 Carrito</button>
+                            </form>
+                        }
+                        <form method="post" asp-page-handler="Eliminar" style="display:inline"
+                              onsubmit="return confirm('¿Eliminar este producto?')">
+                            <input type="hidden" name="id" value="@p.Id" />
+                            <button type="submit" class="btn btn--sm btn--danger">🗑</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

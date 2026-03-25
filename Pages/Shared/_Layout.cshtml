@@ -1,0 +1,97 @@
+﻿@using TiendaVirtual.Services
+@inject CarritoService CarritoService
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] – NexStore</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="/" class="nav-brand">
+            <span class="brand-icon">⬡</span>
+            <span class="brand-name">NexStore</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Menú">
+            <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a asp-page="/Index" class="nav-link">Inicio</a></li>
+            <li class="nav-dropdown">
+                <a href="#" class="nav-link nav-link--has-dropdown">Productos ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a asp-page="/Productos/Index">Todos los productos</a></li>
+                    <li><a asp-page="/Productos/Crear">Agregar producto</a></li>
+                </ul>
+            </li>
+            <li class="nav-dropdown">
+                <a href="#" class="nav-link nav-link--has-dropdown">Clientes ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a asp-page="/Clientes/Index">Ver clientes</a></li>
+                    <li><a asp-page="/Clientes/Crear">Registrar cliente</a></li>
+                </ul>
+            </li>
+            <li><a asp-page="/Pedidos/Index" class="nav-link">Pedidos</a></li>
+        </ul>
+
+        <a asp-page="/Carrito/Index" class="cart-btn" id="cartBtn">
+            <span class="cart-icon">🛒</span>
+            <span class="cart-badge" id="cartBadge">@CarritoService.ObtenerCantidadTotal()</span>
+        </a>
+    </div>
+</nav>
+
+<main class="main-content">
+    @if (TempData["Exito"] != null)
+    {
+        <div class="toast toast--success" id="toast">
+            <span class="toast-icon">✓</span>
+            <span>@TempData["Exito"]</span>
+            <button class="toast-close" onclick="this.parentElement.remove()">×</button>
+        </div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="toast toast--error" id="toast">
+            <span class="toast-icon">✕</span>
+            <span>@TempData["Error"]</span>
+            <button class="toast-close" onclick="this.parentElement.remove()">×</button>
+        </div>
+    }
+
+    @RenderBody()
+</main>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="brand-icon">⬡</span> NexStore
+        </div>
+        <p class="footer-copy">Sistema de Tienda Virtual · POO ASP.NET Core · @DateTime.Now.Year</p>
+    </div>
+</footer>
+
+<script>
+    // Toggle menú móvil
+    document.getElementById('navToggle').addEventListener('click', function () {
+        document.getElementById('navLinks').classList.toggle('open');
+    });
+
+    // Auto-ocultar toasts suavemente
+    setTimeout(() => {
+        const t = document.getElementById('toast');
+        if (t) t.style.animation = 'slideOut 0.4s forwards';
+    }, 4000);
+</script>
+@RenderSection("Scripts", required: false)
+</body>
+</html>

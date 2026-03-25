@@ -1,0 +1,116 @@
+@page
+@model TiendaVirtual.Pages.Carrito.IndexModel
+@{
+    ViewData["Title"] = "Carrito";
+}
+
+<div class="page-header">
+    <div class="container">
+        <div class="page-header__inner">
+            <div>
+                <h1 class="page-title">🛒 Carrito de Compras</h1>
+                <p class="page-subtitle">@Model.Items.Count tipo(s) de producto · @Model.CantidadTotal unidades</p>
+            </div>
+            <a asp-page="/Productos/Index" class="btn btn--outline">← Seguir comprando</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    @if (!Model.Items.Any())
+    {
+        <div class="empty-state">
+            <div class="empty-icon">🛒</div>
+            <h3>Tu carrito está vacío</h3>
+            <p>Agrega productos desde el catálogo para comenzar.</p>
+            <a asp-page="/Productos/Index" class="btn btn--primary">Explorar productos</a>
+        </div>
+    }
+    else
+    {
+        <div class="cart-layout">
+            <div class="cart-items">
+                @foreach (var item in Model.Items)
+                {
+                    <div class="cart-item">
+                        <div class="cart-item__icon">@item.IconoTipo</div>
+                        <div class="cart-item__info">
+                            <h4>@item.NombreProducto</h4>
+                            <span class="badge badge--neutral">@item.TipoProducto</span>
+                            <span class="text-muted">@item.CodigoProducto</span>
+                        </div>
+                        <div class="cart-item__price">$@item.PrecioUnitario.ToString("N2")</div>
+                        <form method="post" asp-page-handler="ActualizarCantidad" class="cart-qty-form">
+                            <input type="hidden" name="productoId" value="@item.ProductoId" />
+                            <input type="number" name="cantidad" value="@item.Cantidad" min="1" max="99"
+                                   class="form-control qty-input" onchange="this.form.submit()" />
+                        </form>
+                        <div class="cart-item__subtotal">$@item.Subtotal.ToString("N2")</div>
+                        <form method="post" asp-page-handler="Eliminar">
+                            <input type="hidden" name="productoId" value="@item.ProductoId" />
+                            <button type="submit" class="btn-icon btn-icon--danger" title="Eliminar">🗑</button>
+                        </form>
+                    </div>
+                }
+            </div>
+
+            <div class="cart-summary">
+                <div class="summary-card">
+                    <h3>Resumen del pedido</h3>
+
+                    @foreach (var item in Model.Items)
+                    {
+                        <div class="summary-line">
+                            <span>@item.NombreProducto × @item.Cantidad</span>
+                            <span>$@item.Subtotal.ToString("N2")</span>
+                        </div>
+                    }
+
+                    <div class="summary-divider"></div>
+                    <div class="summary-total">
+                        <span>Total</span>
+                        <span>$@Model.Total.ToString("N2")</span>
+                    </div>
+
+                    <div class="checkout-form">
+                        <h4>Datos de Facturación</h4>
+                        <form method="post" asp-page-handler="Confirmar">
+                            <div class="form-group">
+                                <select name="clienteId" class="form-control" required>
+                                    @{
+                                        // Extraemos al Consumidor Final usando el correo único que le dimos en SeedData
+                                        var consumidorFinal = Model.Clientes.FirstOrDefault(c => c.Email == "cf@nexstore.local");
+                                        if (consumidorFinal != null)
+                                        {
+                                            <option value="@consumidorFinal.Id" selected>👤 Consumidor Final (Venta Rápida)</option>
+                                        }
+                                    }
+                                    <option disabled>----------------------</option>
+                                    <option value="">O selecciona un cliente registrado...</option>
+                                    @foreach (var c in Model.Clientes.Where(c => c.Email != "cf@nexstore.local"))
+                                    {
+                                        <option value="@c.Id">@c.NombreCompleto (@c.Codigo)</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="notas" class="form-control form-textarea"
+                                          rows="2" placeholder="Notas adicionales (opcional)..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full btn--lg">
+                                ✅ Confirmar Pedido · $@Model.Total.ToString("N2")
+                            </button>
+                        </form>
+
+                        <form method="post" asp-page-handler="Vaciar" style="margin-top:0.75rem">
+                            <button type="submit" class="btn btn--outline btn--full"
+                                    onclick="return confirm('¿Vaciar todo el carrito?')">
+                                🗑 Vaciar carrito
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

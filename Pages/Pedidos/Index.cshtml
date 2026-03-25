@@ -1,0 +1,85 @@
+@page
+@model TiendaVirtual.Pages.Pedidos.IndexModel
+@{
+    ViewData["Title"] = "Historial de Pedidos";
+}
+
+<div class="page-header">
+    <div class="container">
+        <div class="page-header__inner">
+            <div>
+                <h1 class="page-title">Historial de Pedidos</h1>
+                <p class="page-subtitle">@Model.Pedidos.Count pedido(s) · Total: $@Model.TotalVentas.ToString("N2")</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    @if (!Model.Pedidos.Any())
+    {
+        <div class="empty-state">
+            <div class="empty-icon">📋</div>
+            <h3>No hay pedidos aún</h3>
+            <a asp-page="/Carrito/Index" class="btn btn--primary">Ir al carrito</a>
+        </div>
+    }
+    else
+    {
+        @foreach (var pedido in Model.Pedidos)
+        {
+            <div class="order-card">
+                <div class="order-card__header">
+                    <div class="order-card__meta">
+                        <code class="code-badge">@pedido.NumeroPedido</code>
+                        <span class="badge badge--success">@pedido.Estado</span>
+                    </div>
+                    <div class="order-card__info">
+                        <span>👤 @pedido.NombreCliente</span>
+                        <span>📅 @pedido.FechaPedido.ToString("dd/MM/yyyy HH:mm")</span>
+                        <span class="order-total">$@pedido.Total.ToString("N2")</span>
+                    </div>
+                </div>
+
+                <div class="order-card__items">
+                    <table class="data-table data-table--compact">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Tipo</th>
+                                <th>Cant.</th>
+                                <th>Precio</th>
+                                <th>Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in pedido.Items)
+                            {
+                                <tr>
+                                    <td>@item.IconoTipo @item.NombreProducto</td>
+                                    <td><span class="badge badge--neutral">@item.TipoProducto</span></td>
+                                    <td>@item.Cantidad</td>
+                                    <td>$@item.PrecioUnitario.ToString("N2")</td>
+                                    <td>$@item.Subtotal.ToString("N2")</td>
+                                </tr>
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4" class="text-right"><strong>Total del pedido:</strong></td>
+                                <td><strong>$@pedido.Total.ToString("N2")</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                @if (!string.IsNullOrEmpty(pedido.NotasAdicionales))
+                {
+                    <div class="order-card__notes">
+                        📝 @pedido.NotasAdicionales
+                    </div>
+                }
+            </div>
+        }
+    }
+</div>
